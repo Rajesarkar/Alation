@@ -232,9 +232,9 @@
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a6cfjd8zuMS62rn3Evp52Uya+KGMjk4PHfMrdFhc" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;My_data&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
