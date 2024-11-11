@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_617hQGCZEe2rANqs4es37Q" name="AmarOffer" dataPackage="_617hQWCZEe2rANqs4es37Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/prakash.reddy/Downloads/AmarOfferSampleMatrix.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_617hQWCZEe2rANqs4es37Q" name="default" dataManager="_617hQGCZEe2rANqs4es37Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_617hQmCZEe2rANqs4es37Q" id="_nIshoGCZEe2rANqs4es37Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_617hQ2CZEe2rANqs4es37Q" label="msisdn" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_617hRGCZEe2rANqs4es37Q" label="offer" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_617hRWCZEe2rANqs4es37Q" label="offerrank" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_617hRmCZEe2rANqs4es37Q" label="tgflag" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_9-E0sOiWEeiPHuz56RxluQ" name="ccap_stg" id="_z2h88OiWEeiPHuz56RxluQ" label="ccap_stg" dataPackage="_qBEV0AgZEe26pPrUuAPqew" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://172.21.10.108:5432/ccap_proddb??ssl=true;sslfactory=org.postgresql.ssl.NonValidatingFactory" dbVersionString="V9_X" Port="5432" Username="ccap_stg" Password="enc:system.encryption.key.v1:TOh+Ow15kIawAbHt4Y0OSFQA2oiK86LJ8Ne0moAOlmCl0VPvWswpMg==" ServerName="172.21.10.108" DatasourceName="" FileFieldName="" SID="ccap_proddb" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="?ssl=true;sslfactory=org.postgresql.ssl.NonValidatingFactory" StandardSQL="true" SQLMode="false" UiSchema="ccap_stg" supportNLS="false">
+    <taggedValue xmi:id="_9-GC0OiWEeiPHuz56RxluQ" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_9_qJEOiWEeiPHuz56RxluQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_9_xd0OiWEeiPHuz56RxluQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_9_xd0eiWEeiPHuz56RxluQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_9_xd0uiWEeiPHuz56RxluQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_9_xd0-iWEeiPHuz56RxluQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_9_xd1OiWEeiPHuz56RxluQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_9_xd1eiWEeiPHuz56RxluQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_-AdaUOiWEeiPHuz56RxluQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_-AdaUeiWEeiPHuz56RxluQ" tag="DB ProductVersion" value="14.2"/>
+    <taggedValue xmi:id="_-AdaUuiWEeiPHuz56RxluQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_zkQ1QAgXEe26pPrUuAPqew" key="CONN_PARA_KEY_USERNAME" value="ccap_stg"/>
+    <parameters xmi:id="_nrXpwAgZEe26pPrUuAPqew" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_qBEV0AgZEe26pPrUuAPqew" name="ccap_proddb" dataManager="_9-E0sOiWEeiPHuz56RxluQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qBEV0QgZEe26pPrUuAPqew" name="ccap_stg"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
