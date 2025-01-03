@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_LpDlwF4IEeyNt92Y5QBHVQ" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_LpDlwV4IEeyNt92Y5QBHVQ" comment="" name="vou_kafka_blist" prompt="vou_kafka_blist?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.1.71:9093,10.10.1.71:9094,10.10.2.78:9093,10.10.2.78:9094"/>
-  <contextParameter xmi:id="_LpDlxV4IEeyNt92Y5QBHVQ" comment="" name="vou_topic" prompt="vou_topic?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VOUCHERQUEUE"/>
-  <contextParameter xmi:id="_Zc_CYOZBEeycNe2fA50Ypg" comment="" name="rtc2_kafka_blist" prompt="rtc2_kafka_blist?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.10.9.101:9093,10.10.9.101:9094&quot;"/>
-  <contextParameter xmi:id="_Zc_CYeZBEeycNe2fA50Ypg" comment="" name="rtc2_topic" prompt="rtc2_topic?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;derived-rtc-wholesale-usage-dev&quot;"/>
-  <contextParameter xmi:id="_Zc_CYuZBEeycNe2fA50Ypg" comment="" name="rtc2_group_id" prompt="rtc2_group_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Gderived-rtc-wholesale-usage-dev&quot;"/>
-  <contextParameter xmi:id="_cwEMoOZVEeycNe2fA50Ypg" comment="" name="rtc2_zookeeper" prompt="rtc2_zookeeper?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.10.9.101:2181&quot;"/>
-</talendfile:ContextType>
